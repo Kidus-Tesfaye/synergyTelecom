@@ -1,2 +1,3 @@
-﻿# _Data analysis and Churn prediction for an imaginary telecommunication company. 
+﻿# Data analysis and Churn prediction for an imaginary telecommunication company. 
+
 
