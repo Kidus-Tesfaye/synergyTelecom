@@ -4,7 +4,7 @@
 This project aims to predict customers who are likely to churn for a telecom company using Machine Learning. As it is much more expensive to gain new customers, it is important to identify churners and take proactive retention measures. <br>
 
 In this project you will find, 
-- Data preprocessing with encoding, scaling,       
+- Data preprocessing with encoding, and scaling,       
 - Data visualization to illustrate correlation with the target,
 - Target prediction using different models, and finally
 - SHAP visualization to show feature importance. 
@@ -22,16 +22,22 @@ In this project you will find,
 
 1. Clone this repository <br>
 
+``` console
 git clone https://github.com/Kidus-Tesfaye/synergyTelecom.git <br>
 cd synergyTelecom <br>
+```
 
 2. Create your virtual environment <br>
+
 Best to consult the [official documentation](https://docs.python.org/3/library/venv.html) <br>
 
 3. Install dependencies <br>
-After creating and activating your virtual environment run the command below. <br>
-pip install -r requirements.txt
 
+After creating and activating your virtual environment run the command below. <br>
+
+``` console
+pip install -r requirements.txt
+```
 
 ## *Dataset*
 
@@ -48,13 +54,13 @@ The dataset used for this project can be found at [Kaggle: Telco Customer Churn]
 ## *Models*
 
 - [Logistic Regression ](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
-- [XGBClassifier](https://xgboost.readthedocs.io/en/stable/python/python_api.html#xgboost.XGBClassifier)
+- [XGBClassifier](https://xgboost.readthedocs.io/en/stable/python/python_api.html#xgboost.XGBClassifier) <br>
 Both with baseline parameters. 
 
 
 ## *Performance*
 
-Here are the metrics for the Logistic Regression model which outperformed the XGBClassifier
+The metrics for the Logistic Regression model which outperformed the XGBClassifier.
 
 |  | Precision | Recall | F1 score |
 |:---:|:---:|:---:|:---:|
