@@ -23,8 +23,8 @@ In this project you will find,
 1. Clone this repository <br>
 
 ``` console
-git clone https://github.com/Kidus-Tesfaye/synergyTelecom.git <br>
-cd synergyTelecom <br>
+git clone https://github.com/Kidus-Tesfaye/synergyTelecom.git
+cd synergyTelecom 
 ```
 
 2. Create your virtual environment <br>
@@ -33,7 +33,7 @@ Best to consult the [official documentation](https://docs.python.org/3/library/v
 
 3. Install dependencies <br>
 
-After creating and activating your virtual environment run the command below. <br>
+After creating and activating your virtual environment run the command below.
 
 ``` console
 pip install -r requirements.txt
@@ -55,6 +55,7 @@ The dataset used for this project can be found at [Kaggle: Telco Customer Churn]
 
 - [Logistic Regression ](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
 - [XGBClassifier](https://xgboost.readthedocs.io/en/stable/python/python_api.html#xgboost.XGBClassifier) <br>
+
 Both with baseline parameters. 
 
 
