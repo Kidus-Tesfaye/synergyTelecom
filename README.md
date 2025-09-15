@@ -20,26 +20,26 @@ In this project you will find,
 
 ## *Installation*
 
-1. Clone this repository
-git clone https://github.com/Kidus-Tesfaye/synergyTelecom.git
-cd synergyTelecom
-2. Create your virtual environment
-Best to consult the [official documentation](https://docs.python.org/3/library/venv.html) 
-3. Install dependencies
-After creating and activating your virtual environment run the command below. 
+1. Clone this repository <br>
+git clone https://github.com/Kidus-Tesfaye/synergyTelecom.git <br>
+cd synergyTelecom <br>
+2. Create your virtual environment <br>
+Best to consult the [official documentation](https://docs.python.org/3/library/venv.html) <br>
+3. Install dependencies <br>
+After creating and activating your virtual environment run the command below. <br>
 pip install -r requirements.txt
 
 ## *Dataset*
 
-The dataset used for this project can be found at [Kaggle: Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
+The dataset used for this project can be found at [Kaggle: Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn).
 
-*The processed data doesn't contain the same number of columns as the raw data due to OneHotEncoding. Consult [OneHotEncoder](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html)*
+*The processed data doesn't contain the same number of columns as the raw data due to OneHotEncoding. Consult [OneHotEncoder](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html).*
 
 
 ## *Feature Engineering*
-- Numerical columns like tenure, MonthlyCharges and TotalCharges were scaled
-- Categorical columns were either mapped or encode
-- An additional column called OnlineServices, which aggregates online services
+- Numerical columns like tenure, MonthlyCharges and TotalCharges were scaled.
+- Categorical columns were either mapped or encode.
+- An additional column called OnlineServices, which aggregates online services.
 
 ## *Models*
 
@@ -67,5 +67,5 @@ The SHAP violin summary plot was used to get a better understanding of feature i
 
 ## *Author*
 
-Kidus Tesfaye -- (kidustesfaye34343@gmail.com)
+Kidus Tesfaye -- (kidustesfaye34343@gmail.com) <br>
 GitHub -- Kidus-Tesfaye
