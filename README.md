@@ -12,22 +12,26 @@ In this project you will find,
 
 ## *Project Structure*
 
-├── data/                 # Raw and processed data <br>
-├── code/            # Jupyter notebook for EDA & experiments <br>
-├── README.md             # Project documentation <br>
-└── requirements.txt      # Python dependencies <br>
+├── data/     &emsp;            # Raw and processed data <br>
+├── code/       &emsp;     # Jupyter notebook for EDA & experiments <br>
+├── README.md      &emsp;       # Project documentation <br>
+└── requirements.txt   &emsp;   # Python dependencies <br>
 
 
 ## *Installation*
 
 1. Clone this repository <br>
+
 git clone https://github.com/Kidus-Tesfaye/synergyTelecom.git <br>
 cd synergyTelecom <br>
+
 2. Create your virtual environment <br>
 Best to consult the [official documentation](https://docs.python.org/3/library/venv.html) <br>
+
 3. Install dependencies <br>
 After creating and activating your virtual environment run the command below. <br>
 pip install -r requirements.txt
+
 
 ## *Dataset*
 
