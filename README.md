@@ -11,8 +11,8 @@ In this project you will find,
 
 ## *Project Structure*
 
-├── data/                 # Raw and processed data(which has "additional" columns due to OneHotEncoding.) Read [OneHotEncoder](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html)  
-├── code/            # Jupyter notebook for EDA & experiments
-├── README.md             # Project documentation
-└── requirements.txt      # Python dependencies
+├── data/                 # Raw and processed data <br>
+├── code/            # Jupyter notebook for EDA & experiments <br>
+├── README.md             # Project documentation <br>
+└── requirements.txt      # Python dependencies <br>
 
