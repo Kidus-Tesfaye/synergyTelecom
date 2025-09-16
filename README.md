@@ -1,4 +1,5 @@
-﻿# Data analysis and Churn prediction for an imaginary telecommunication company. 
+﻿# Data analysis and Churn prediction for a telecommunication company. 
+
 
 ## *Introduction*
 This project aims to predict customers who are likely to churn for a telecom company using Machine Learning. As it is much more expensive to gain new customers, it is important to identify churners and take proactive retention measures. <br>
